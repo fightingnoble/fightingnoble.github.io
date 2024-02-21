@@ -1,0 +1,308 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\usepackage{graphicx}%插入图片
+\usepackage{tabularx,booktabs}%控制版面
+\usepackage{float}%控制图片位置
+\usepackage[UTF8]{ctex}
+
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Chenguang Zhang}{August 4, 1994}  % Your name and date of birth or subtitle
+
+E-mial：\noindent\href{mailto:zhangchg@shanghaitech.edu.cn}{zhangchg@shanghaitech.edu.cn}\bull % Your email address
+Phone: +86 13102002813 % Your phone number(s) and Skype username
+% \textsmaller{+}1 (111) 111-1112\bull smith01 \textit{(Skype)}\bull % Your phone number(s) and Skype username
+% \href{http://www.johnsmith.com}{www.johnsmith.com}\\ % Your URL
+% 123 Broadway\bull City, 12345\bull State\bull Country % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Summary} % Root section title
+
+% \vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+
+% \begin{multicols}{2}  % Start a two-column layout
+% \noindent \textit{}\\\\
+
+I am a final year master student in Shanghaitech University.
+I'm interested in electronic design automation and exploring new architectures for various kinds of applications.
+My current research focuses on In-memory-computing, ReRAM based neural network accelerator and its reliability.
+I am also broadly interested in DNN model compression, AI-assisted EDA, AI-assisted design for architecture, domain specific architecture.
+
+% \end{multicols}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Tianjin University}
+{\textsc{Tianjin, China}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {Bachelor of Engineering in Electronic Engineering}
+    {2012.9-2016.6}
+    {\bodytext{}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Shanghaitech University}
+{\textsc{Shanghai, China}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {M.Phil in Computer Science}
+    {2018.9-now} {
+        \bodytext{Major Coursework: Digital/Analog integrated circuit, Deep learning, machine learning, numerical analysis, Matrix Analysis, Re-configurable Computing, Computer Organization and Design, Computer Architecture.}
+        \bodytext{Research area: circuit modeling, electronic design automation, hardware and software co-design\\
+            with Prof. Pingqiang Zhou, SIST, Shanghaitech University}
+        \bodytext{Thesis: Improving efficiency and reliability of ReRAM based Neural Network accelerator.
+        }
+    }
+}
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Research} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Improving efficiency and reliability of ReRAM based Neural Network accelerator}
+{} {
+    \headedsubsection{Enhance the robustness under variation (non-ideal effect of ReRAM)}{}{
+        \begin{itemize}
+            \item Accelerate Deep Neural Network inference basing on the ReRAM based In-memory-computing architecture. Extend Pytorch to support the hardware structure simulation, training and fault injection.
+                  % \item Propose a trainable quantizer and a corresponding metric to measure and trade-off both quantization error and sensitivity of a quantizer to conductance variation.
+            \item Propose a hardware-friendly quantized training method to enhance the robustness of the accelerator and maintain the inference accuracy. Work will appear in ASP-DAC 2021.
+        \end{itemize}
+    }
+
+    \headedsubsection{Exploring fault-tolerant and compact NN structure for accelerator}{}{
+        \begin{itemize}
+            \item Utilize the structure sparsity of NN to inherently tolerate the defects in ReRAM.
+                  % \item Propose a trainable quantizer and a corresponding metric to measure and trade-off both quantization error and sensitivity of a quantizer to conductance variation.
+            \item Propose an automatic architecture search and an accuracy recovery methods to explore the variant structure of original neural networks efficiently. 
+        \end{itemize}
+    }
+
+    % % \bodytext{
+    %     \begin{itemize}
+    %         \item My paper ``A Quantized Training Framework for Robust and Accurate ReRAM-based Neural Network Accelerators'' is accepted by ASP-DAC 2021.
+    %         \item Accelerate Deep Neural Network inference basing on the ReRAM based In-memory-computing architecture.
+    %         \item Extend Pytorch to support the hardware structure simulation, training and fault injection.
+    %         \item Propose a trainable quantizer and a corresponding metric to measure both quantization error and sensitivity of a quantizer to conductance variation (non-ideal effect of ReRAM),
+    %               and make a trade-off between them.
+    %         \item Propose a hardware-friendly quantized training method to enhance the robustness of the accelerator to maintain the with inference accuracy.
+    %     \end{itemize}
+    % % }
+}
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	Teaching SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Teaching Assistant} % Top level section
+
+\inlineheadsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\textsc{MATH1122 — Linear algebra}}
+{Shanghaitech University} {}
+
+\inlineheadsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\textsc{SI231B — Matrix computation}}
+{Shanghaitech University} {}
+
+%------------------------------------------------
+
+\spacedhrule{1.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Experience} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Foxconn (Tianjin) Precision Industry Co., Ltd.}
+{\textsc{Tianjin, China}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{FPGA} Engineer}
+    {2016.7-2017.11}
+    {\bodytext{Design power management, interface management and glue logic with FPGA for Intel platform server master board.}}
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{}{Datang Mobile Communications Equipment Co., Ltd}}
+{\textsc{Beijing, China}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{FPGA} Intern}
+    {2018.4–2018.8}
+    {\bodytext{Active antenna Ir interface Unit(AIU) of 5G station design: Using Xilinx FPGA to preprocess, synchronize and forwarding high speed data form antenna array.}}
+}
+
+%------------------------------------------------
+
+\begin{center}
+    % \textit{Please refer to \href{http://www.linkedin.com/in/ciesbreijs}{my Linkedin profile} for the complete list of work experiences along with recommendations.}
+    \textit{Good RTL coding ability (read, write, simulation and Debug), timing analysis.}
+    % \textit{总结：有良好的RTL代码读写仿真和Debug能力，能编写常用模块和复杂状态机，作时序分析。}
+\end{center}
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Publication} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{}{A Quantized Training Framework for Robust and Accurate ReRAM-based Neural Network Accelerators, to appear in Asia and South Pacific Design Automation Conference (ASP-DAC), 2021, Jan. 18–21, 2021, Tokyo, Japan}
+
+%------------------------------------------------
+
+\spacedhrule{1.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Project} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Using Xilinx HLS and FPGA to accelerate CNN}
+{Execution time hotspots of the CNN code is identified.
+    And then the code accelerate is by setting loop unrolling, pipeline, online buffer and high speed bus etc., using HLS syntax, 
+    to achieve the maximum resource utilization, data efficiency and clock frequency.\\
+    Project results: Compared with the code that directly running on the ARM kernel, 
+    execution time of the optimized convolution layer is reduced to 30 times.
+}
+
+%------------------------------------------------
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{
+    16-bit multiplier full custom with Cadence Virtuoso\\
+}
+{
+    Design a 16-bit multiplier with full custom flow,
+    including transistor level circuit, basic cells and layout design, functional simulation, pre-/post-layout simulation.
+    The power and delay is optimized in algorithm level and circuit level.
+}
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{
+    Image enhancement algorithm acceleration using General-Purpose Re-configurable Processor
+}
+{
+    % General-Purpose Re-configurable Processor is an architecture with multi-core and re-configurable router.
+    % General-Purpose Re-configurable Processor is a typical architecture that organizes with processing element array and re-configurable routers.
+    The architecture of General-Purpose Re-configurable Processor consists of processing element array and re-configurable routers, which is similar to GPU.
+    By manually scheduling resources and tasks, I tried to improve the execution time of the image enhancement algorithms, such as wight balance and gray world,
+    with proper data re-using, pipeline scheduling, loop unrolling,  trace scheduling and Multi-threading.
+}
+%----------------------------------------------------------------------------------------
+
+\spacedhrule{1.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\headedsubsection % Special section that has an inline header with a 'hanging' paragraph
+% {\acr{FPGA} Inern}
+% {Apr. 2018 - Aug. 2018}
+% {\bodytext{Active antenna Ir interface Unit(AIU) of 5G station design: Using Xilinx FPGA to preprocess, synchronize and forwarding high speed data form antenna array.}}
+{Technical specialties:}{ }
+{\bodytext{
+        General programming skills : C++, python, MATLAB, \LaTeX\\
+        Processor design : RISC-V\\
+        FPGA hardware design experience : Verilog, HLS C++, Chisel\\
+        Application optimization on FPGA : CNN, computer vision\\
+        Simulator/Framework: Sniper, Pytorch\\
+        Hardware modeling : Memory, power grid\\
+        Good knowledge in deep learning and machine leaning\\
+        Good knowledge in IC design flow\\
+        CAD Tools: Synopsys Hspice, Cadence Virtuoso, Xilinx Vivado Design Suite, Intel/Altera Quartus Prime, Mentor ModelSim, Synopsys Design Compiler
+    }
+}
+%------------------------------------------------
+
+% \inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+% {Natural languages:}
+% {Dutch \textit{(mother tongue)}, English \textit{(full professional proficiency)}, German \textit{(limited working proficiency)}, French \textit{(elementary proficiency)} and Mandarin Chinese \textit{(beginner)}.}
+
+%------------------------------------------------
+
+\spacedhrule{1.0em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Interests} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Non-exhaustive and in alphabetical order:}
+{Architecture with emerging devices, AI-assisted EDA, AI-assisted Design for Architecture, Domain specific architecture,
+    DNN model compression, Heterogeneous computing, Hardware agile design, In-memory-computing, Neuromorphic computing}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
