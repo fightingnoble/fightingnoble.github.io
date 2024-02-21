@@ -1,124 +1,149 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Chenguang Zhang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Chenguang 
+last_name: Zhang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: M.Phil Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Shanghaitech University
+    url: https://www.shanghaitech.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a final year master student in Shanghaitech University. My research interests include electronic design automation, in-memory-computing, ReRAM based neural network accelerator and its reliability.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Electronic Design Automation
+  - In-Memory-Computing
+  - ReRAM Based Neural Network Accelerator and its Reliability
+  - DNN Model Compression
+  - AI-Assisted EDA
+  - AI-Assisted Design for Architecture
+  - Domain Specific Architecture
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: M.Phil in Computer Science
+      institution: Shanghaitech University
+      year: Current
+    - course: Bachelor of Engineering in Electronic Engineering
+      institution: Tianjin University
+      year: 2016
 
 # Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical
     items:
+      - name: C++
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
       - name: Python
         description: ''
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
+      - name: MATLAB
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: math
+        icon_pack: fas
+      - name: LaTeX
+        description: ''
+        percent: 80
+        icon: file-alt
+        icon_pack: fas
+      - name: RISC-V
+        description: ''
+        percent: 80
+        icon: microchip
+        icon_pack: fas
+      - name: Verilog
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+      - name: HLS C++
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+      - name: Chisel
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+      - name: CNN
+        description: ''
+        percent: 80
+        icon: brain
+        icon_pack: fas
+      - name: Computer Vision
+        description: ''
+        percent: 80
+        icon: eye
+        icon_pack: fas
+      - name: Sniper
+        description: ''
+        percent: 80
+        icon: crosshairs
+        icon_pack: fas
+      - name: Pytorch
+        description: ''
+        percent: 80
+        icon: fire
+        icon_pack: fas
+      - name: Memory Hardware Modeling
+        description: ''
+        percent: 80
+        icon: memory
+        icon_pack: fas
+      - name: Power Grid Hardware Modeling
+        description: ''
+        percent: 80
+        icon: grid
+        icon_pack: fas
+      - name: Deep Learning
+        description: ''
+        percent: 80
+        icon: brain
+        icon_pack: fas
+      - name: Machine Learning
+        description: ''
+        percent: 80
+        icon: robot
+        icon_pack: fas
+      - name: IC Design Flow
+        description: ''
+        percent: 80
+        icon: microchip
+        icon_pack: fas
+      - name: CAD Tools
+        description: 'Synopsys Hspice, Cadence Virtuoso, Xilinx Vivado Design Suite, Intel/Altera Quartus Prime, Mentor ModelSim, Synopsys Design Compiler'
+        percent: 80
+        icon: tools
         icon_pack: fas
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+    link: 'mailto:zhangchg@shanghaitech.edu.cn'
+  # Add your social/academic networking links here
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Chenguang Zhang is a final year master student at Shanghaitech University. His research interests include electronic design automation, in-memory-computing, ReRAM based neural network accelerator and its reliability. He is also broadly interested in DNN model compression, AI-assisted EDA, AI-assisted design for architecture, and domain specific architecture.
