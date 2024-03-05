@@ -236,10 +236,10 @@ sections:
   #   design:
   #     columns: '2'
 
-  # - block: contact
-  #   id: contact
-  #   content:
-  #     title: Contact
+  - block: contact
+    id: contact
+    content:
+      title: Contact
   #     subtitle:
   #     text: |-
   #       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
@@ -262,7 +262,11 @@ sections:
   #     coordinates:
   #       latitude: '116.31'
   #       longitude: '39.99'  
-  #     contact_links:
+      contact_links:
+        - icon: github
+          icon_pack: fab
+          name: Follow Me on GitHub
+          link: 'https://github.com/fightingnoble'
   #       - icon: twitter
   #         icon_pack: fab
   #         name: DM Me
