@@ -264,9 +264,13 @@ sections:
   #       longitude: '39.99'  
       contact_links:
         - icon: github
-          icon_pack: fab
+          icon_pack: bootstrap
           name: Follow Me on GitHub
           link: 'https://github.com/fightingnoble'
+        - icon: gitea
+          icon_pack: simple-icons
+          name: Follow Me on Gitea
+          link: 'http://git.fightingnoble.com'
   #       - icon: twitter
   #         icon_pack: fab
   #         name: DM Me
