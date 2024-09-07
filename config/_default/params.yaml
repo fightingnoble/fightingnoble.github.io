@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021028620号-1 | </a>
     license:
       enable: true
       allow_derivatives: false
