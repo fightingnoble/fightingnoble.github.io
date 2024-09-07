@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021028620号-1 | </a>
+    notice: '[京ICP备2021028620号-1](https://beian.miit.gov.cn/)'
     license:
       enable: true
       allow_derivatives: false
